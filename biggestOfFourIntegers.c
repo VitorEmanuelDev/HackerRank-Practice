@@ -27,31 +27,31 @@ Sample Output
 
 int max_of_four(int a, int b, int c, int d){
 
-    int maior = 0;
+    int biggest = 0;
 
     if(a > b && a > c && a > d){
 
-        maior = a;
+        biggest = a;
 
     } else if (b > a && b > c && b > d){
 
-        maior = b;
+        biggest = b;
 
     } else if (c > a && c > b && c > d){
 
-        maior = c;
+        biggest = c;
 
     } else if (d > a && d > b && d > c){
 
-        maior = d;
+        biggest = d;
 
     } else if ( a == b && b == c && c == d){
 
-        maior = a;
+        biggest = a;
 
     }
 
-    return maior;
+    return biggest;
 
 }
 

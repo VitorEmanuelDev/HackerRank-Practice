@@ -1,13 +1,15 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 void update(int *a,int *b) {
-int c = *a;
-*a = *a + *b;
-*b = *b - c;
+    
+int aa = *a, bb = *b;
+*a = aa + bb;
+*b = abs(bb - aa);
 
 }
 
 int main() {
+    
     int a, b;
     int *pa = &a, *pb = &b;
     
@@ -16,4 +18,5 @@ int main() {
     printf("%d\n%d", a, b);
 
     return 0;
+    
 }

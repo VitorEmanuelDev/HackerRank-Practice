@@ -5,10 +5,7 @@
 
 
 void calculate_the_maximum(int n, int k){
-    int i, j;
-    int and, andMax = 0;
-    int or, orMax = 0;
-    int xor, xorMax = 0;
+    int i, j, andMax = 0, orMax = 0, xorMax = 0;
 
     for (i = 1 ; i <= n ; i++){
 
